@@ -29,10 +29,10 @@ The original image is annotated with the detected contours and the fitted bounda
 Tuning the range for specific cone colors based on the input images could improve detection accuracy.
 
 ### Contour Area Filtering: 
-Setting the contour area threshold too low could result in capturing noise. Increasing this threshold could reduce unwanted detections, but made it harder to detect small cones.
+Setting the contour area threshold too low could result in capturing noise. Increasing this threshold was done to reduce unwanted detections, but it made it harder to detect the small cones.
 
 ### Line Fitting: 
-If there were not enough detected cones, the line fitting step would fail. To address this, the code was designed to only attempt line fitting when at least two cones are detected.
+If there were not enough detected cones, the line fitting step would fail. To address this, the code was designed to only attempt line fitting when at least two cones were detected.
 
 ## Libraries Used
 - **OpenCV**: The primary library for image processing tasks. It is used for reading images, converting color spaces, creating masks, detecting contours, and drawing shapes.
