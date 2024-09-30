@@ -26,11 +26,11 @@ The original image is annotated with the detected contours and the fitted bounda
 
 ## What Was Attempted
 ### Color Range Tuning: 
-Initially, the HSV color range for cone detection was set broadly. In some cases, this resulted in missing cones or false positives. Tuning the range for specific cone colors based on the input images improved detection accuracy.
+Tuning the range for specific cone colors based on the input images could improve detection accuracy.
 
 ### Contour Area Filtering: 
+Setting the contour area threshold too low could result in capturing noise. Increasing this threshold could reduce unwanted detections, but made it harder to detect small cones.
 
-Setting the contour area threshold too low resulted in capturing noise. Increasing this threshold reduced unwanted detections, but made it harder to detect small cones.
 ### Line Fitting: 
 If there were not enough detected cones, the line fitting step would fail. To address this, the code was designed to only attempt line fitting when at least two cones are detected.
 
