@@ -35,15 +35,12 @@ Setting the contour area threshold too low resulted in capturing noise. Increasi
 If there were not enough detected cones, the line fitting step would fail. To address this, the code was designed to only attempt line fitting when at least two cones are detected.
 
 ## Libraries Used
-### OpenCV: 
-The primary library for image processing tasks. It is used for reading images, converting color spaces, creating masks, detecting contours, and drawing shapes.
-### NumPy: 
-Used for numerical operations and handling arrays, particularly in the polynomial fitting step.
+- **OpenCV**: The primary library for image processing tasks. It is used for reading images, converting color spaces, creating masks, detecting contours, and drawing shapes.
+- **NumPy**: Used for numerical operations and handling arrays, particularly in the polynomial fitting step.
+
 ## Requirements
 Make sure you have the following Python packages installed:
-
-bash
-Copy code
+```bash
 pip install opencv-python numpy
 
 ### Usage
