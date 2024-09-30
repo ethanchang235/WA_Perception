@@ -1,5 +1,3 @@
-WA_perception.py
-
 import cv2
 import numpy as np
 
@@ -59,5 +57,7 @@ def detect_path_boundaries(image_path):
     cv2.imwrite("answer.png", image)
     print("Boundary lines drawn and saved as answer.png.")
 
-# Example usage
-detect_path_boundaries("path_image.jpg")  # Replace with your image path
+# Main execution block
+if __name__ == "__main__":
+    # Test the function with an image file
+    detect_path_boundaries("red.png")
