@@ -1,6 +1,6 @@
 # Path Boundary Detection
 ## Overview
-This project implements a perception algorithm to detect the boundaries of a straight path defined by cones using a camera attached to a vehicle. The algorithm processes an input image, detects cone boundaries, and outputs an image with boundary lines drawn.
+Attempts to detect boundaries of a straight path defined by cones. The algorithm processes an input image, detects cone boundaries, and outputs an image with boundary lines drawn.
 
 ## Output
 The processed image with detected boundaries is saved as answer.png.
@@ -44,10 +44,6 @@ Make sure you have the following Python packages installed:
 pip install opencv-python numpy
 
 ### Usage
-To run the algorithm, modify the last line in the provided code to point to your input image. For example:
-
-python
-Copy code
-detect_path_boundaries("answer.png")  # Image path here
-Ensure that the specified image file exists in the same directory as the script
+To run the algorithm, modify the last line in the provided code to point to your input image.
+Ensure that the specified image file exists in the same directory as the script.
 The processed image will be saved as answer.png in the same directory.
