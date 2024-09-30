@@ -49,6 +49,5 @@ To run the algorithm, modify the last line in the provided code to point to your
 python
 Copy code
 detect_path_boundaries("answer.png")  # Image path here
-Ensure that the specified image file exists in the same directory as the script, or provide the full path to the image.
-
+Ensure that the specified image file exists in the same directory as the script
 The processed image will be saved as answer.png in the same directory.
