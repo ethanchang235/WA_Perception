@@ -24,7 +24,7 @@ The centers of detected cones are computed, and if sufficient cones are found, a
 ### Visualization: 
 The original image is annotated with the detected contours and the fitted boundary line, which is then saved.
 
-## What Was Attempted
+## What Was Attempted That Did Not Work
 ### Color Range Tuning: 
 Tuning the range for specific cone colors based on the input images could improve detection accuracy.
 
